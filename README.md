@@ -6,7 +6,7 @@ I've added Bootstrap 4 via react-strap for some quick styling.
 
 It uses TMDb API [https://www.themoviedb.org/](https://www.themoviedb.org/) to get a list of nowplaying movies, genres and poster images.
 
-## Available Scripts
+## Available Scripts (from create-react-app)
 
 In the project directory, you can run:
 
@@ -30,5 +30,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
-
-See the section about [deployment](#deployment) for more information.
