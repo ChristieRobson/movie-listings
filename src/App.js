@@ -5,9 +5,6 @@ import sortBy from 'lodash/sortBy';
 import { RatingsFilter } from './components/RatingsFilter';
 import { MovieCards } from './components/MovieCards';
 
-// import * as mockData from './mocks/nowPlaying.json';
-// import * as mockGenres from './mocks/genres.json';
-
 class App extends Component {
     constructor() {
         super();

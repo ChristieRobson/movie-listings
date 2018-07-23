@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders MovieCards with 2 movies 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    movies={
+        Array [
+            Object {
+              "genres": Array [
+                Object {
+                  "id": 28,
+                  "name": "Action",
+                },
+                Object {
+                  "id": 12,
+                  "name": "Adventure",
+                },
+              ],
+              "id": 1,
+              "popularity": 88.123,
+              "poster_path": "abc123",
+              "title": "A movie title",
+            },
+            Object {
+              "genres": Array [
+                Object {
+                  "id": 16,
+                  "name": "Animation",
+                },
+              ],
+              "id": 2,
+              "popularity": 6.6,
+              "poster_path": "an456",
+              "title": "Another movie ",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          genres={
+                    Array [
+                              Object {
+                                "id": 28,
+                                "name": "Action",
+                              },
+                              Object {
+                                "id": 12,
+                                "name": "Adventure",
+                              },
+                            ]
+          }
+          id={1}
+          popularity={88.123}
+          poster_path="abc123"
+          title="A movie title"
+/>,
+        <Unknown
+          genres={
+                    Array [
+                              Object {
+                                "id": 16,
+                                "name": "Animation",
+                              },
+                            ]
+          }
+          id={2}
+          popularity={6.6}
+          poster_path="an456"
+          title="Another movie "
+/>,
+      ],
+      "className": "row",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "genres": Array [
+            Object {
+              "id": 28,
+              "name": "Action",
+            },
+            Object {
+              "id": 12,
+              "name": "Adventure",
+            },
+          ],
+          "id": 1,
+          "popularity": 88.123,
+          "poster_path": "abc123",
+          "title": "A movie title",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "genres": Array [
+            Object {
+              "id": 16,
+              "name": "Animation",
+            },
+          ],
+          "id": 2,
+          "popularity": 6.6,
+          "poster_path": "an456",
+          "title": "Another movie ",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            genres={
+                        Array [
+                                    Object {
+                                      "id": 28,
+                                      "name": "Action",
+                                    },
+                                    Object {
+                                      "id": 12,
+                                      "name": "Adventure",
+                                    },
+                                  ]
+            }
+            id={1}
+            popularity={88.123}
+            poster_path="abc123"
+            title="A movie title"
+/>,
+          <Unknown
+            genres={
+                        Array [
+                                    Object {
+                                      "id": 16,
+                                      "name": "Animation",
+                                    },
+                                  ]
+            }
+            id={2}
+            popularity={6.6}
+            poster_path="an456"
+            title="Another movie "
+/>,
+        ],
+        "className": "row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "genres": Array [
+              Object {
+                "id": 28,
+                "name": "Action",
+              },
+              Object {
+                "id": 12,
+                "name": "Adventure",
+              },
+            ],
+            "id": 1,
+            "popularity": 88.123,
+            "poster_path": "abc123",
+            "title": "A movie title",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "genres": Array [
+              Object {
+                "id": 16,
+                "name": "Animation",
+              },
+            ],
+            "id": 2,
+            "popularity": 6.6,
+            "poster_path": "an456",
+            "title": "Another movie ",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
